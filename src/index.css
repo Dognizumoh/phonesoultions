@@ -1,13 +1,80 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+}
+.header{
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+}
+ul{
+  display: flex;
+  padding-right: 30px;
+}
+li{
+  margin: 30px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.icon{
+  height: 100px;
+  width: 50px;
+  padding: 10px 10px;
+
+}
+.header h2{
+  padding-top: 20px;
+  font-weight: 40px;
+}
+.firstrow{
+  display: flex;
+  gap: 50px;
+}
+.second-row{
+  display: flex;
+  gap: 50px;
+}
+img{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+.card{
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  background-color: paleturquoise;
+  width: 500px;
+  text-align: center;
+  align-content: center;
+}
+.card h2{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.card p{
+  margin: 5px;
+  font-size: 25px;
+}
+.card button{
+  font-size: 20px;
+  width: 150px;
+  margin-left: 120px;
+  background-color: aquamarine;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.products{
+  width: 900px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.prod{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 700px;
+  margin: 50px auto;
 }
